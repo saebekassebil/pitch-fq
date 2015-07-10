@@ -1,0 +1,29 @@
+{
+  "name": "pitch-fq",
+  "version": "1.0.0",
+  "description": "Calculate the frequency of a note coord",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saebekassebil/pitch-fq.git"
+  },
+  "keywords": [
+    "frequency",
+    "fq",
+    "pitch",
+    "music",
+    "note"
+  ],
+  "author": "Jakob Miland <saebekassebil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saebekassebil/pitch-fq/issues"
+  },
+  "homepage": "https://github.com/saebekassebil/pitch-fq#readme",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
