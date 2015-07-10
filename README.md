@@ -9,7 +9,7 @@ var fq = require('pitch-fq');
 var parse = require('scientific-notation');
 
 fq(parse('A4'))     // -> 440
-fq(parse('A4), 442) // -> 442
+fq(parse('A4'), 442) // -> 442
 
 var concertPitch = fq(440);
 concertPitch(parse('A5')) // -> 880
@@ -20,8 +20,8 @@ concertPitch(parse('A5')) // -> 880
 Calculate the frequency of a [notecoord](https://github.com/saebekassebil/notecoord)
 (relative to A4), in the given "concert pitch", assuming an equal temperament.
 
-Normally you'd tune A4 to 440hz, but in some settings you might want to tune
-it to 442 or something else.
+Normally you'd tune A4 to 440Hz, but in some settings you might want to tune
+it to 442Hz or something else.
 
 ### `fq(concertPitch) -> fn(coord)`
 
